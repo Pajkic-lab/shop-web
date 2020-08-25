@@ -1,0 +1,93 @@
+.container{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+.card{
+    float: left;
+    width: 250px;
+    height: 350px;
+    border: 0.5px solid rgb(223, 223, 223);
+    margin: 10px;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+}
+.card:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.card img{
+    width: 100%;
+    height: 250px;
+}
+
+.card-add{
+    float: left;
+    width: 450px;
+    height: 720px;
+    border: 0.5px solid rgb(223, 223, 223);
+    margin: 10px;
+    text-align: center;
+}
+.card-add p{
+    display: block;
+}
+
+.drop-zone{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 40%;
+    height: 150px;
+    background-image: url('../plus-119-458361.png');
+    background-position: center;
+    background-size: 90px ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: rgb(245, 245, 245);
+}
+.form-admin{
+    position: relative;
+    top: 200px;
+}
+
+
+
+
+/**/
+
+
+
+.pagination {
+    margin-top: 50px;
+    margin-left: 50%;
+    margin-bottom: 50px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    list-style: none;
+    outline: none;
+    float: left;
+    clear: left;
+    font-family: 'Alata', sans-serif;
+  }
+  .pagination > .active > a{
+    background-color: rgb(95, 95, 95) ;
+    border-color: rgb(95, 95, 95) ;
+    color: #fff;
+  }
+  .pagination > li > a{
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+  }
+  .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background-color: #91caff ;
+    border-color: #91caff ;
+    outline: none ;
+  }
+  .pagination > li > a, .pagination > li > span{
+    color: rgb(95, 95, 95)
+  }
+  .pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+    border-radius: unset
+  }
+

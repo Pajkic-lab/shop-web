@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:link{
+  text-decoration: none !important;
+  color: white;
+}
+:link.active{
+  text-decoration: none !important;
+  color: white;
+}
+:visited{
+  text-decoration: none;
+  color: white;
+}
